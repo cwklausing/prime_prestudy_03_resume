@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang=“en”>
+<head>
+  <meta charset="UTF-8">
+  <title>CWKlausing Resume</title>
+  <meta name=“author” content="Connor Klausing" />
+  <meta name="keywords" content="cwkwebdesign, self-taught, self-starter, persistent, imaginative, original, HTML, CSS" />
+  <meta name="description" content="Updated Resume." />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <script src="jquery.min.js"></script>
+  <script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $('#everything').css({"visibility": "visible"});
+    });
+});
+</script>
+</head>
+
+<body>
+<button>Click me!</button>
+<!-- Fixed top bar -->
+<div id="everything">
+  <header>
+    <figure>
+      <img src="images/Profile.jpg" />
+    </figure>
+    <section>
+      <h1>Connor W Klausing</h1>
+      <p>567 Asbury St, St. Paul, MN 55104</p>
+      <p>(651) 357-6785 - cwklausing@gmail.com</p>
+    </section>
+  </header>
+ 
+ <!-- Body of the resume -->
+  <main>
+    <!-- Personal statement -->
+    <p><strong>An aspiring, self-taught, but admittedly unseasoned web developer looks to up his game</strong></p>
+    <hr>
+    
+    <!--Education -->
+    <section>
+      <h3>EDUCATION</h3>
+        <p>Bachelor of Arts</p>
+        <div class="date">May 2014</div>
+        <p>St. John's University, Collegeville, MN</p>
+        <div class="date">GPA 3.88, Magna Cum Laude</div>
+        <p>Major: Political Science</p>        
+        <p>Study Abroad: St. Xavier’s University, Kolkata, India</p>
+        <hr>
+    </section>
+    
+    <!--Awards -->  
+    <section>
+      <h3>AWARDS & HONORS</h3>
+      <div class="date">2014</div>
+      <p>Phi Beta Kappa</p>
+      <div class="date">2013</div>
+      <p>Caritas Man of Extraordinary Service Award</p>
+      <div class="date">2013-2014</div>
+      <p>Jackson Fellow</p>
+      <ul>
+        <li>Served the common good through leadership, community engagement, collective learning, and professional development.</li>
+      </ul>
+      <hr>
+    </section>
+
+    <!--Computer Skills -->
+    <section>
+      <h3>COMPUTER SKILLS</h3>
+      <ul>
+        <li>Proficient in Microsoft Office and Adobe Photoshop, competent in basic HTML5 and CSS, amateur in Javascript.</li>
+      </ul>
+      <hr>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h3>EXPERIENCE</h3>
+      <!-- Round River -->
+      <section>
+        <div class="date">May 2014 - October 2014</div>
+        <p><strong>Farm Intern</strong></p>        
+        <p><i>Round River Farm, Finland MN</i></p>
+        <ul>
+          <li>Handling the preparation, growth, and distribution of produce for a 50 member CSA may not have taught me much about computers, but I definitely learned how to push myself to (and beyond) what I thought myself capable of.</li>
+        </ul>
+        <br>
+      </section>
+
+      <!--Full Circle Greenhouse-->
+      <section>
+        <div class="date">August 2011 - May 2014</div>
+        <p><strong>Co-Founder, Volunteer Coordinator</strong></p>        
+        <p><i>Full Circle Greenhouse, College of St. Benedict, St. Joseph, MN</i></p>
+        <ul>
+          <li>Supervised communications with over 100 greenhouse volunteers, taught educational classes to visitors</li>
+          <li> Learned how to motivate teams, work through bureaucracy, and stick with a project with undying persistence.</li>
+          <li>Researched, fundraised for, and helped construct a student-run, passive solar winter greenhouse.</li>
+        </ul>
+        <br>
+      </section>
+        
+      <!--Witness for Peace-->  
+      <section>
+        <div class="date">July 2013 - August 2013</div>
+        <p><strong>Intern</strong></p>        
+        <p><i>Witness for Peace, Minneapolis MN</i></p>
+        <ul>
+          <li>Constructed and managed organization web pages, email blasts, and databases.</li>
+          <li>Coordinated grassroots initiatives by recruiting for international delegations, organizing delegate gatherings, and lobbying local and national political representatives.</li>
+        </ul>
+        <br>
+      </section>
+
+      <!--ASED-->
+      <section>
+        <div class="date">January 2013 - May 2013</div>
+        <p><strong>Intern</strong></p>
+        <p><i>The Association for Social and Environmental Development, Kolkata, India</i></p>
+        <ul>
+          <li>Designed fundraising page on Globalgiving.com, managed group Facebook account.</li>
+          <li>Delivered solar lamps to children in the Sundarbans without access to electricity.</li>
+        </ul>
+        <br>
+      </section>
+
+      <!--ICSW-->
+      <section>
+        <div class="date">May 2012 - September 2012</div>
+        <p><strong>Intercultural Center Student Worker</strong></p>        
+        <p><i>College of St. Benedict, St. Joseph, MN</i></p>
+        <ul>
+          <li>Directed the Center’s website: constructed web pages, created content, and designed visuals on Adobe Photoshop.</li>
+          <li>Engaged students and community members through social media outreach.</li>
+        </ul>
+        <br>
+      </section>
+    </section>
+  </main>
+
+<!-- End body of resume -->
+  <section id="Contact-me">
+    <h3>CONTACT ME</h3>
+    <p>If you'd like to get in contact, please leave your email and a short message and I'll get back to you as soon as I can.</p>
+    <form>
+        <label for="contact-connor"><label>
+        <textarea id="contact-connor" placeholder="Interest in contacting Connor..."></textarea>
+        <label for="email"></label>
+        <input type="email" placeholder="Email..." id="email">
+        <label for="submit"></label>
+        <input type="submit">     
+    </form>
+  </section>
+
+<!-- Looking up image -->
+
+  <footer>
+    <img src="images/thingsarelookingup.jpg" alt="Things are looking up">
+  </footer>  
+</body>
+</html>

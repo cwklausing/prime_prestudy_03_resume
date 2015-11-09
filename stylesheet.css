@@ -1,0 +1,116 @@
+#everything {
+	visibility: hidden;
+}
+body {
+	margin: 0%;
+	background: linear-gradient(#B6C3CF, #85ADFF);
+}
+
+/* Header styling */
+header {
+	margin-top: 0%;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+	min-width: 55em;
+	background-color: #2C2C2C;
+	border-radius: 7px;
+	z-index: 1;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 80%; 
+	color: #F0F0F0;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 3em;
+	line-height: 20%
+}
+
+figure {
+	position: absolute;
+	border-left: 30px;
+	margin: 5px 5px 5px 30px;
+	float: left;
+	padding: 5px;
+}
+
+figure img {
+	width: 120px;
+	border-radius: 50%;
+}
+
+/* End header styling */
+/*Begin content styling */
+
+main {
+	width: 750px;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	margin: 132px auto 0px;
+	background-color: #F0F0F0;
+	border-radius: 7px;
+	line-height: 0.5em;
+	border: 1px solid black;
+}
+
+main li {
+	line-height: 1.33em;
+}
+
+.date {
+	float: right;
+}
+
+#Contact-me {
+	width: 750px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 1em 0 1em;
+	margin: 1em auto 1em;
+	background-color: #F0F0F0;
+	border-radius: 7px;
+	line-height: 1.33em;
+	border: 1px solid black;
+}
+
+form {
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+#Contact-me input {
+	font-size: 1em;
+	border-radius: 7px;
+	border: 1px solid black;
+	padding: 10px;
+}
+#Contact-me h3 {
+	font-weight: bold;
+}
+
+textarea {
+	display: block;
+	font-size: 1em;
+	border-radius: 7px;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 0 auto;
+	width: 20em;
+	height: 5em;
+}
+label {
+	display: block;
+	padding: 5px;
+}
+
+/* Looking up image */
+footer img {
+	width: 100%;
+	border: 2px;
+	border-style: solid;
+	border-color: #474747;
+	border-radius: 7px;
+}
